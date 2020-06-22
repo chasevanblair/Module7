@@ -11,7 +11,7 @@ class TestArrays(unittest.TestCase):
 
     def test_search_found(self):
         a = arr.array('i', [0, 3, 23, 22])
-        self.assertGreaterEqual(0, search_array(a, 23))
+        self.assertLessEqual(0, search_array(a, 23))
 
 
 if __name__ == '__main__':
