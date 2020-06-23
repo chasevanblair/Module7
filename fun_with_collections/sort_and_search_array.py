@@ -10,3 +10,6 @@ def search_array(collection, term):
             i += 1
     return -1
 
+
+def sort_array(collection):
+    pass
