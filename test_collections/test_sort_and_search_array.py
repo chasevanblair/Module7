@@ -15,9 +15,8 @@ class TestArrays(unittest.TestCase):
 
     def test_sort_array(self):
         a = arr.array('i', [35, 3, 23, 22])
-        x = len(a)
         a = sort_array(a)
-        self.assertLessEqual(a[0], a[x - 1])
+        self.assertLessEqual(a[0], a[len(a) - 1])
 
 
 if __name__ == '__main__':
